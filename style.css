@@ -219,6 +219,7 @@ body main #a5 {
 body main #a5 .container {
   flex-direction: row;
   gap: 60px;
+  flex-wrap: wrap;
 }
 body main #a5 .container .logo {
   display: flex;

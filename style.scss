@@ -237,6 +237,7 @@ body {
         .container{
             flex-direction: row;
             gap:60px ;
+            flex-wrap: wrap;
             .logo{
                 display: flex;
                 align-items: end;
