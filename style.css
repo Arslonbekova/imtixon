@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+a {
+  all: unset;
+}
+
+body .container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .text-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+body h1 {
+  width: 100%;
+  max-width: 730px;
+  color: #4C545C;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.587px;
+  color: #4C545C;
+}
+body p {
+  width: 100%;
+  max-width: 730px;
+  color: #9EABB2;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 150% */
+  letter-spacing: 0.15px;
+  font-size: 16px;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.12px;
+}
+body h2 {
+  width: 100%;
+  max-width: 350px;
+  color: #4C545C;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.391px;
+}
+body .btn-box {
+  width: 100%;
+  max-width: 470px;
+  height: 56px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+body .btn-box a {
+  width: 100%;
+  max-width: 227px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background: #26BBA4;
+  box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .btn-box a:nth-child(2) {
+  background: #6174FF;
+}
+body header {
+  background-image: url("./img/Bitmap 2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+body header .container .top {
+  padding-top: 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  align-items: center;
+}
+body header .container .top h1 {
+  width: 100%;
+  max-width: 730px;
+  color: #4C545C;
+  text-align: center;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.75px;
+}
+body main {
+  padding-top: 16px;
+}
+body main #a1 .container {
+  gap: 150px;
+}
+body main #a1 .container .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+body main #a2 {
+  padding-top: 80px;
+}
+body main #a2 .container {
+  flex-direction: row;
+  max-width: 1212px;
+  gap: 110px;
+}
+body main #a2 .container .img {
+  width: 100%;
+  max-width: 752px;
+  height: 572px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+body main #a2 .container .img img {
+  width: 100%;
+  left: -26px;
+}
+body main #a2 .container .text {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+body main #a2 .container .text .line {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+body main #a2 .container .text .line p {
+  text-align: start;
+}
+body main #a3 {
+  padding-top: 150px;
+}
+body main #a3 .container {
+  gap: 111.8px;
+}
+body main #a4 {
+  padding-top: 163px;
+}
+body main #a4 .container {
+  gap: 70px;
+}
+body main #a4 .container .text {
+  display: flex;
+  gap: 30px;
+}
+body main #a4 .container .text .line {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+}
+body main #a4 .container .text .line .img {
+  width: 100%;
+  max-width: 44px;
+  height: 40px;
+}
+body main #a4 .container .text .line h2 {
+  padding-top: 28px;
+  text-align: center;
+}
+body main #a5 {
+  padding-top: 160px;
+}
+body main #a5 .container {
+  max-width: 1110px;
+  flex-direction: row;
+  gap: 95.47px;
+}
+body main #a6 {
+  padding-top: 165px;
+}
+body main #a6 .container {
+  gap: 19px;
+}
+body main #a6 .container .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}/*# sourceMappingURL=style.css.map */

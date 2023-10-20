@@ -1,0 +1,44 @@
+@media screen and (max-width:481px){
+    body{
+        .container{
+             width: 100%;
+             max-width: 311px;
+    }
+    header{
+        .container{
+            .top{
+                h1{
+                    max-width: 311px;
+                    font-size: 32px;
+                    letter-spacing: -0.522px;
+                }
+            }
+
+        }
+    }
+    main{
+        #a1{    
+        .container{
+            .text{
+                p{
+                   letter-spacing: 0.15px;
+                    font-size: 16px;
+                line-height: 26px; /* 162.5% */
+                letter-spacing: 0.12px; 
+                }
+                .btn-box{
+                    height: 160px;
+                    gap: 24px;
+                    a{
+                        max-width: 311px;
+                    }
+                }
+            }
+            }
+        }
+        // #a2{
+
+        // }
+    }
+    }
+}

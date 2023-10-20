@@ -1,0 +1,24 @@
+@media screen and (max-width: 481px) {
+  body .container {
+    width: 100%;
+    max-width: 311px;
+  }
+  body header .container .top h1 {
+    max-width: 311px;
+    font-size: 32px;
+    letter-spacing: -0.522px;
+  }
+  body main #a1 .container .text p {
+    letter-spacing: 0.15px;
+    font-size: 16px;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.12px;
+  }
+  body main #a1 .container .text .btn-box {
+    height: 160px;
+    gap: 24px;
+  }
+  body main #a1 .container .text .btn-box a {
+    max-width: 311px;
+  }
+}/*# sourceMappingURL=media.css.map */
