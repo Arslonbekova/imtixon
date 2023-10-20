@@ -1,10 +1,14 @@
+
 @media screen and (max-width:481px){
     body{
+
         .container{
              width: 100%;
              max-width: 311px;
     }
     header{
+        background-image: url("./img/Bitmap\ 2.png");
+        background-size: 300%;
         .container{
             .top{
                 h1{
@@ -17,6 +21,14 @@
         }
     }
     main{
+        padding-bottom: 170px;
+        .btn-box{
+            height: 160px;
+            gap: 24px;
+            a{
+                max-width: 311px;
+            }
+        }
         #a1{    
         .container{
             .text{
@@ -26,19 +38,107 @@
                 line-height: 26px; /* 162.5% */
                 letter-spacing: 0.12px; 
                 }
-                .btn-box{
-                    height: 160px;
-                    gap: 24px;
-                    a{
-                        max-width: 311px;
-                    }
-                }
             }
             }
         }
-        // #a2{
-
-        // }
+        #a2{
+            padding-top: 65px;
+            .container{
+                flex-wrap: wrap;
+                max-width:  311px;
+                gap: 56px;
+                .im{
+                    max-width: 312px;
+                    height: 238px;
+                    left: 0;
+                    position: relative;
+                }
+                .img{
+                    position: absolute;
+                    width: 0;
+                }
+                .text{
+                    max-width: 311px;
+                    .line{
+                        align-items: center;
+                        gap: 10px;
+                        p{
+                            text-align: center;
+                        }
+                        h2{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        #a3{
+            padding-top: 168px; 
+            .container{
+                gap: 64.72px;
+                .img{
+                    background-size: 110%;
+                    max-width: 311px;
+                    height: 182px;
+                    background-position: -13px -1px;
+                }
+            }
+        }
+        #a4{
+            padding-top: 130px;
+            .container{
+                gap: 90px;
+                .text{
+                    flex-direction:column;
+                    .line{
+                        gap: 18px;
+                        h2{
+                            padding-top: 12px;
+                        }
+                    }
+                }
+                
+            }
+        }
+        #a5{
+            .container{
+                flex-direction: column;
+                height: 500px;
+            }
+        }
+        #a6{
+            padding-top: 170px;
+        }
+    }
+    footer{
+        .container{
+            max-width: 160px;
+            flex-direction: column;
+            gap: 50.25px;
+            .left{
+                flex-direction: column;
+                gap: 40px;
+            }
+            .text{
+                flex-direction: column;
+                gap: 20px;
+                span{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    p{
+                        text-align: center;
+                    }
+                }  
+                p{
+                    text-align: center;
+                }
+            }
+            .icons{
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
     }
     }
 }

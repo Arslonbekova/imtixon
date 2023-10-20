@@ -3,10 +3,24 @@
     width: 100%;
     max-width: 311px;
   }
+  body header {
+    background-image: url("./img/Bitmap 2.png");
+    background-size: 300%;
+  }
   body header .container .top h1 {
     max-width: 311px;
     font-size: 32px;
     letter-spacing: -0.522px;
+  }
+  body main {
+    padding-bottom: 170px;
+  }
+  body main .btn-box {
+    height: 160px;
+    gap: 24px;
+  }
+  body main .btn-box a {
+    max-width: 311px;
   }
   body main #a1 .container .text p {
     letter-spacing: 0.15px;
@@ -14,11 +28,97 @@
     line-height: 26px; /* 162.5% */
     letter-spacing: 0.12px;
   }
-  body main #a1 .container .text .btn-box {
-    height: 160px;
-    gap: 24px;
+  body main #a2 {
+    padding-top: 65px;
   }
-  body main #a1 .container .text .btn-box a {
+  body main #a2 .container {
+    flex-wrap: wrap;
     max-width: 311px;
+    gap: 56px;
+  }
+  body main #a2 .container .im {
+    max-width: 312px;
+    height: 238px;
+    left: 0;
+    position: relative;
+  }
+  body main #a2 .container .img {
+    position: absolute;
+    width: 0;
+  }
+  body main #a2 .container .text {
+    max-width: 311px;
+  }
+  body main #a2 .container .text .line {
+    align-items: center;
+    gap: 10px;
+  }
+  body main #a2 .container .text .line p {
+    text-align: center;
+  }
+  body main #a2 .container .text .line h2 {
+    text-align: center;
+  }
+  body main #a3 {
+    padding-top: 168px;
+  }
+  body main #a3 .container {
+    gap: 64.72px;
+  }
+  body main #a3 .container .img {
+    background-size: 110%;
+    max-width: 311px;
+    height: 182px;
+    background-position: -13px -1px;
+  }
+  body main #a4 {
+    padding-top: 130px;
+  }
+  body main #a4 .container {
+    gap: 90px;
+  }
+  body main #a4 .container .text {
+    flex-direction: column;
+  }
+  body main #a4 .container .text .line {
+    gap: 18px;
+  }
+  body main #a4 .container .text .line h2 {
+    padding-top: 12px;
+  }
+  body main #a5 .container {
+    flex-direction: column;
+    height: 500px;
+  }
+  body main #a6 {
+    padding-top: 170px;
+  }
+  body footer .container {
+    max-width: 160px;
+    flex-direction: column;
+    gap: 50.25px;
+  }
+  body footer .container .left {
+    flex-direction: column;
+    gap: 40px;
+  }
+  body footer .container .text {
+    flex-direction: column;
+    gap: 20px;
+  }
+  body footer .container .text span {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  body footer .container .text span p {
+    text-align: center;
+  }
+  body footer .container .text p {
+    text-align: center;
+  }
+  body footer .container .icons {
+    width: 100%;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=media.css.map */
