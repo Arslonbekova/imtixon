@@ -7,6 +7,11 @@
 
 a {
   all: unset;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #26BBA4;
 }
 
 body .container {
@@ -69,6 +74,7 @@ body .btn-box {
   flex-wrap: wrap;
 }
 body .btn-box a {
+  cursor: pointer;
   width: 100%;
   max-width: 227px;
   height: 56px;
@@ -114,6 +120,7 @@ body header .container .top h1 {
 }
 body main {
   padding-top: 16px;
+  padding-bottom: 150px;
 }
 body main #a1 .container {
   gap: 150px;
@@ -163,6 +170,15 @@ body main #a3 {
 body main #a3 .container {
   gap: 111.8px;
 }
+body main #a3 .container .img {
+  background: url("./img/Group 29.png");
+  width: 100%;
+  max-width: 812px;
+  height: 475px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 body main #a4 {
   padding-top: 163px;
 }
@@ -209,4 +225,54 @@ body main #a6 .container .text {
   flex-direction: column;
   align-items: center;
   gap: 48px;
+}
+body footer {
+  padding: 39px;
+  background: #9EABB2;
+}
+body footer .container {
+  max-width: 1135px;
+  flex-direction: row;
+  gap: 135px;
+}
+body footer .container .text {
+  width: 100%;
+  display: flex;
+  max-width: 635px;
+}
+body footer .container .text p:hover {
+  color: #26BBA4;
+}
+body footer .container .text p {
+  color: #4C545C;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.135px;
+  text-align: start;
+}
+body footer .container .text span {
+  width: 100%;
+  max-width: 160px;
+}
+body footer .container .text span p {
+  color: #4C545C;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.135px;
+  text-align: start;
+}
+body footer .container p:hover {
+  color: #26BBA4;
+}
+body footer .container .icons {
+  display: flex;
+  gap: 20px;
+}
+body footer .container .icons i {
+  font-size: 20px;
+  color: #4C545C;
 }/*# sourceMappingURL=style.css.map */
