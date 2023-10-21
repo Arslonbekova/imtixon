@@ -138,15 +138,16 @@ body main #a2 .container {
   flex-direction: row;
   max-width: 1212px;
   gap: 110px;
+  flex-wrap: wrap;
 }
 body main #a2 .container .im {
   position: absolute;
   width: 100%;
-  max-width: 752px;
+  max-width: 1110px;
   height: 572px;
-  background: url("./img/Group 10.png");
+  background: url("./img/Group 10.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 67.3%;
   left: -32px;
 }
 body main #a2 .container .img {
@@ -218,12 +219,13 @@ body main #a5 {
 }
 body main #a5 .container {
   flex-direction: row;
-  gap: 60px;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 body main #a5 .container .logo {
   display: flex;
-  align-items: end;
+  align-items: center;
+  height: 72px;
 }
 body main #a6 {
   padding-top: 165px;
@@ -252,6 +254,11 @@ body footer .container .left {
   display: flex;
   gap: 135px;
 }
+body footer .container .left .div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 body footer .container .text {
   width: 100%;
   display: flex;
@@ -262,7 +269,7 @@ body footer .container .text p {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 40px; /* 166.667% */
   letter-spacing: 0.135px;
   text-align: start;
 }
