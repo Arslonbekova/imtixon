@@ -1,7 +1,7 @@
 
 @media screen and (max-width:481px){
     body{
-
+        
         .container{
              width: 100%;
              max-width: 311px;
@@ -52,6 +52,7 @@
                     height: 238px;
                     left: 0;
                     position: relative;
+                    background-size: 100%;
                 }
                 .img{
                     position: absolute;
@@ -90,6 +91,7 @@
                 gap: 90px;
                 .text{
                     flex-direction:column;
+                    gap: 56px;
                     .line{
                         gap: 18px;
                         h2{

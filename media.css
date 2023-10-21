@@ -41,6 +41,7 @@
     height: 238px;
     left: 0;
     position: relative;
+    background-size: 100%;
   }
   body main #a2 .container .img {
     position: absolute;
@@ -79,6 +80,7 @@
   }
   body main #a4 .container .text {
     flex-direction: column;
+    gap: 56px;
   }
   body main #a4 .container .text .line {
     gap: 18px;
