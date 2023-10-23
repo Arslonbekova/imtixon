@@ -22,6 +22,8 @@ body .text-bottom {
   display: flex;
   flex-direction: column;
   gap: 19px;
+  width: 100%;
+  max-width: 700px;
 }
 body h1 {
   width: 100%;
@@ -33,23 +35,17 @@ body h1 {
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.587px;
-  color: #4C545C;
 }
 body p {
   width: 100%;
   max-width: 730px;
   color: #9EABB2;
   text-align: center;
-  font-family: "Bai Jamjuree";
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px;
-  /* 150% */
-  letter-spacing: 0.15px;
-  font-size: 16px;
-  line-height: 26px; /* 162.5% */
-  letter-spacing: 0.12px;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.135px;
 }
 body h2 {
   width: 100%;
@@ -127,6 +123,10 @@ body main #a1 .container .text {
   align-items: center;
   gap: 48px;
 }
+body main #a1 .container .text p {
+  font-size: 20px;
+  letter-spacing: 0.15px;
+}
 body main #a2 {
   margin: 0 auto;
   width: 100%;
@@ -169,6 +169,8 @@ body main #a2 .container .text .line {
 }
 body main #a2 .container .text .line p {
   text-align: start;
+  font-size: 16px;
+  letter-spacing: 0.12px;
 }
 body main #a3 {
   padding-top: 150px;
@@ -213,6 +215,10 @@ body main #a4 .container .text .line .img {
 body main #a4 .container .text .line h2 {
   padding-top: 28px;
   text-align: center;
+}
+body main #a4 .container .text .line p {
+  font-size: 16px;
+  letter-spacing: 0.12px;
 }
 body main #a5 {
   padding-top: 160px;

@@ -1,7 +1,21 @@
 
 @media screen and (max-width:481px){
     body{
-        
+        @mixin p-text() {
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 162.5% */
+            letter-spacing: 0.12px;
+            } 
+            p{
+                @include p-text();
+            }
+            h1{
+                font-size: 28px;
+                letter-spacing: -0.457px;
+            }   
         .container{
              width: 100%;
              max-width: 311px;
@@ -29,16 +43,13 @@
                 max-width: 311px;
             }
         }
-        #a1{    
-        .container{
-            .text{
-                p{
-                   letter-spacing: 0.15px;
-                    font-size: 16px;
-                line-height: 26px; /* 162.5% */
-                letter-spacing: 0.12px; 
+        #a1{
+            .container{
+                .text{
+                    p{
+                        @include p-text();
+                    }
                 }
-            }
             }
         }
         #a2{

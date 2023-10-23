@@ -1,4 +1,16 @@
 @media screen and (max-width: 481px) {
+  body p {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.12px;
+  }
+  body h1 {
+    font-size: 28px;
+    letter-spacing: -0.457px;
+  }
   body .container {
     width: 100%;
     max-width: 311px;
@@ -23,8 +35,10 @@
     max-width: 311px;
   }
   body main #a1 .container .text p {
-    letter-spacing: 0.15px;
+    text-align: center;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 26px; /* 162.5% */
     letter-spacing: 0.12px;
   }
