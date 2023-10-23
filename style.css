@@ -92,7 +92,7 @@ body .btn-box a:nth-child(2) {
   background: #6174FF;
 }
 body header {
-  background-image: url("./img/Bitmap 2.png");
+  background: linear-gradient(0deg, white, transparent), url("./img/Bitmap 2.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -256,6 +256,7 @@ body footer .container .left {
 }
 body footer .container .left .div {
   width: 100%;
+  max-width: 55px;
   display: flex;
   justify-content: center;
 }

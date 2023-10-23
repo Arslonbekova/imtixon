@@ -100,7 +100,7 @@ body {
         }
     }
     header {
-        background-image: url("./img/Bitmap\ 2.png");
+        background: linear-gradient(0deg,white,transparent),url("./img/Bitmap\ 2.png");
         background-repeat: no-repeat;
         background-size: 100%;
         .container {
@@ -115,7 +115,6 @@ body {
                     width: 100%;
                     max-width: 730px;
                     color: #4C545C;
-
                     text-align: center;
                     font-size: 46px;
                     font-style: normal;
@@ -273,6 +272,7 @@ body {
                 gap: 135px;
                 .div{
                     width: 100%;
+                    max-width: 55px;
                     display: flex;
                     justify-content: center;
                 }
